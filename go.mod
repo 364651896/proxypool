@@ -1,4 +1,4 @@
-module github.com/zu1k/proxypool
+module github.com/uoox/proxypool
 
 go 1.14
 
