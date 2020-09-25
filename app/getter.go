@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/zu1k/proxypool/config"
-	"github.com/zu1k/proxypool/getter"
+	"github.com/uoox/proxypool/config"
+	"github.com/uoox/proxypool/getter"
 )
 
 var Getters = make([]getter.Getter, 0)
