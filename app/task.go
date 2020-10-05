@@ -56,6 +56,7 @@ func CrawlGo() {
 func FetchNewConfigFileThenInit() {
 	fmt.Println("fetch new config file...")
 	resp, err := tool.GetHttpClient().Get("https://raw.githubusercontent.com/uoox/proxypool/master/source.yaml")
+	
 	if err != nil {
 		return
 	}
